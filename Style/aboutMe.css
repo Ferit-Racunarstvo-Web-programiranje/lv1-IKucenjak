@@ -1,0 +1,171 @@
+/* About */
+.about{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 133.333px 85.3333px;
+gap: 114.67px;
+top: 75px;
+
+position: absolute;
+width: 1920px;
+height: 1262.67px;
+left: 0px;
+}
+
+
+
+
+/* About Me */
+.aboutMeImg{
+width: 813.33px;
+height: 996px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0; 
+}
+
+
+
+/* Frame 13 */
+.textContainer{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 821.33px;
+height: 403.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0; 
+}
+
+
+
+/* Frame 12 */
+.textTitle{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 280px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+/* About */
+.title1Box{
+width: 58px;
+height: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 21.3333px;
+line-height: 150%;
+/* identical to box height, or 32px */
+text-align: center;
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;  
+}
+
+
+
+/* About Me */
+.title2Box{
+width: 280px;
+height: 77px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;  
+}
+
+
+/*Text*/
+.textBox{
+width: 821.33px;
+height: 252px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;  
+}
+
+/* Media query for tablet devices */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .image-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    
+    .text-container {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  }

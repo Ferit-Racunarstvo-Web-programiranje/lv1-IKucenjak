@@ -1,0 +1,941 @@
+/* Blog  */
+.blogBox{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 112px 64px;
+gap: 80px;
+
+position: absolute;
+width: 1920px;
+height: 1190px;
+left: 0px;
+top: 75px;    
+}
+
+
+
+
+/* Section Header */
+.sectionHeader{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 106.67px;
+
+width: 1749.33px;
+height: 130.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+/* Section Title */
+.sectionTitle{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 21.33px;
+
+width: 1024px;
+height: 130.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Recent Projects */
+.recentProjects{
+width: 152px;
+height: 32px;
+
+/* Sub-tittle */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+text-align: center;
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content1{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1024px;
+height: 77px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* My Portfolio */
+.myPortfolio{
+width: 1024px;
+height: 77px;
+
+/* Heading H2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Social button */
+.socialButton{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 13.3333px 21.3333px;
+gap: 16px;
+
+width: 251.67px;
+height: 74.67px;
+
+background: #E62872;
+/* Shadow/xs */
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 10.6667px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Social icon */
+.socialIcon{
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+
+/* Text */
+.socialText{
+width: 161px;
+height: 32px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content2{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 85.33px;
+
+width: 1749.33px;
+height: 654.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content3{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 85.33px;
+
+width: 1749.33px;
+height: 654.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Row */
+.row{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 42.67px;
+
+width: 1749.33px;
+height: 654.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Card */
+.card1{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 554.67px;
+height: 654.33px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;    
+}
+
+
+
+/* Placeholder / Image */
+.placeholderImg1{
+width: 554.67px;
+height: 400px;
+
+background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content4{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+width: 554.67px;
+height: 254.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content5{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 490.67px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Title */
+.cardTitleBox1{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 490.67px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+/* Blog title heading will go here */
+.cardTitleText1{
+width: 490.67px;
+height: 45px;
+
+/* Heading H3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+/* or 34px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros. */
+.cardText1{
+width: 490.67px;
+height: 64px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar */
+.cardAvatar1{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 10.6667px;
+gap: 21.33px;
+
+width: 169px;
+height: 38.67px;
+
+/* Primary */
+border-bottom: 1.33333px solid #5E3BEE;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content6{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 169px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* View In Dribbble */
+.dribble1{
+width: 137px;
+height: 28px;
+
+/* Body 03  */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+/* Card */
+.card2{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 554.67px;
+height: 654.33px;
+
+background: #FFFFFF;
+box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.15);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;    
+}
+
+
+
+/* Placeholder / Image */
+.placeholderImg2{
+width: 554.67px;
+height: 400px;
+
+background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content7{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+width: 554.67px;
+height: 254.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content8{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 490.67px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Title */
+.cardTitleBox2{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 490.67px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Blog title heading will go here */
+.cardTitleText2{
+width: 490.67px;
+height: 45px;
+
+/* Heading H3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+/* or 34px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros. */
+.cardText2{
+width: 490.67px;
+height: 64px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar */
+.cardAvatar2{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 10.6667px;
+gap: 21.33px;
+
+width: 169px;
+height: 38.67px;
+
+/* Primary */
+border-bottom: 1.33333px solid #5E3BEE;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content9{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 169px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* View In Dribbble */
+.dribble2{
+width: 137px;
+height: 28px;
+
+/* Body 03  */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+/* Card */
+.card3{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 554.67px;
+height: 654.33px;
+
+background: #FFFFFF;
+box-shadow: 0px 5.33333px 32px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;    
+}
+
+
+
+/* Placeholder / Image */
+.placeholderImg3{
+width: 554.67px;
+height: 400px;
+
+background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content10{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+width: 554.67px;
+height: 254.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+/* Content */
+.content11{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 490.67px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Title */
+.cardTitleBox3{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10.67px;
+
+width: 490.67px;
+height: 119.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Blog title heading will go here */
+.cardTitleText3{
+width: 490.67px;
+height: 45px;
+
+/* Heading H3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+/* or 34px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros. */
+.cardText3{
+width: 490.67px;
+height: 64px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar */
+.cardAvatar3{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 0px 10.6667px;
+gap: 21.33px;
+
+width: 169px;
+height: 38.67px;
+
+/* Primary */
+border-bottom: 1.33333px solid #5E3BEE;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content12{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 169px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* View In Dribbble */
+.dribble3{
+width: 137px;
+height: 28px;
+
+/* Body 03  */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}

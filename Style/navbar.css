@@ -1,0 +1,286 @@
+/* Navbar / 2 */
+.navbar{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 85.3333px;
+
+position: absolute;
+width: 1920px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 5.33333px 80px rgba(0, 0, 0, 0.1);  
+}
+
+
+
+/* Container */
+.container{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1312px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+/* Logo */
+.logo{
+width: 140px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;  
+}
+
+
+/* Column */
+.column1{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 276px;
+height: 27px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+
+/* Column */
+.column2{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 364px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;  
+}
+
+
+
+/* Home */
+.homeButton{
+width: 44px;
+height: 24px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Primary */
+color: #5E3BEE;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;   
+}
+
+
+
+/* Portfolio */
+.portfolioButton{
+width: 62px;
+height: 24px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Black */
+color: #0F1221;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0; 
+}
+
+
+
+/* About Us */
+.aboutMeButton{
+width: 70px;
+height: 24px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Black */
+color: #0F1221;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;  
+}
+
+
+
+/* Testimonials */
+.testimonialsButton{
+width: 92px;
+height: 24px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Black */
+color: #0F1221;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;  
+}
+
+
+
+/* Column */
+.column3{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+width: 276px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;   
+}
+
+
+
+/* Button */
+.button{
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px;
+gap: 8px;
+
+width: 128px;
+height: 52px;
+
+border: 1px solid #5E3BEE;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+
+
+/* Contact Me */
+.contactMeButton{
+width: 83px;
+height: 24px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Primary */
+color: #5E3BEE;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0; 
+}
+
+/* Media query for tablet devices */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .image-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    
+    .text-container {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  }

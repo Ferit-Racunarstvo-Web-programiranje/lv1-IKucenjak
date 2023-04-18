@@ -1,0 +1,642 @@
+/* Testimonial  */
+.testimonialBox{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 112px 64px;
+gap: 80px;
+
+position: absolute;
+width: 1920px;
+height: 902.19px;
+left: 0px;
+top: 75px  
+}
+
+
+
+/* Section Title */
+.sectionTitle{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 21.33px;
+
+width: 1749.33px;
+height: 130.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Clients Feedback */
+.clientsFeedback{
+width: 746.67px;
+height: 32px;
+
+/* Sub-tittle */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Customer testimonials */
+.customerTestimonials{
+width: 746.67px;
+height: 77px;
+
+/* Heading H2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Content */
+.content{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 42.67px;
+
+width: 1749.33px;
+height: 366.52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Column */
+.col1{
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 42.6667px;
+gap: 42.67px;
+
+width: 554.67px;
+height: 366.52px;
+
+border: 1.33333px solid #006B6A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;    
+}
+
+
+
+/* Stars */
+.starsBox1{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5.33px;
+
+width: 154.67px;
+height: 25.19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare." */
+.columnText1{
+width: 469.33px;
+height: 96px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar */
+.avatarBox1{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 21.33px;
+
+width: 238px;
+height: 74.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar Image */
+.avatarImg1{
+width: 74.67px;
+height: 74.67px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar Content */
+.avatarContent1{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 142px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+/* Dianne Russell */
+.avatarName1{
+width: 142px;
+height: 32px;
+
+/* Body 02-simi bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Starbucks */
+.avatarCompany1{
+width: 96px;
+height: 32px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Column */
+.col2{
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 42.6667px;
+gap: 42.67px;
+
+width: 554.67px;
+height: 366.52px;
+
+border: 1.33333px solid #006B6A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;    
+}
+
+
+
+/* Stars */
+.starsBox2{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5.33px;
+
+width: 154.67px;
+height: 25.19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+
+
+/* "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare." */
+.columnText2{
+width: 469.33px;
+height: 96px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar */
+.avatarBox2{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 21.33px;
+
+width: 236px;
+height: 74.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar Image */
+.avatarImg2{
+width: 74.67px;
+height: 74.67px;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar Content */
+.avatarContent2{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 140px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Kristin Watson */
+.avatarName2{
+width: 140px;
+height: 32px;
+
+/* Body 02-simi bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Louis Vuitton */
+.avatarCompany2{
+width: 125px;
+height: 32px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Column */
+.col3{
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 42.6667px;
+gap: 42.67px;
+
+width: 554.67px;
+height: 366.52px;
+
+border: 1.33333px solid #006B6A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;    
+}
+
+
+
+/* Stars */
+.starsBox3{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 5.33px;
+
+width: 154.67px;
+height: 25.19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare." */
+.columnText3{
+width: 469.33px;
+height: 96px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar */
+.avatarBox3{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 21.33px;
+
+width: 249px;
+height: 74.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar Image */
+.avatarImg3{
+width: 74.67px;
+height: 74.67px;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* Avatar Content */
+.avatarContent3{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 153px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;    
+}
+
+
+
+/* Kathryn Murphy */
+.avatarName3{
+width: 153px;
+height: 32px;
+
+/* Body 02-simi bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;    
+}
+
+
+
+/* McDonald's */
+.avatarCompany3{
+width: 111px;
+height: 32px;
+
+/* Text/Regular/Normal */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}

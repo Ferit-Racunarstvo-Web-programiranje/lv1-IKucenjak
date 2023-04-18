@@ -1,0 +1,247 @@
+/* Header */
+.header{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 133.333px 85.3333px;
+
+position: absolute;
+width: 1920px;
+height: 996.41px;
+left: 0px;
+top: 120px;
+
+/* BG Shade */
+background: #F5FCFF;  
+}
+
+
+
+/* Header left */
+.headerLeft{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 790.67px;
+height: 526.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/* Content */
+.content{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 21.33px;
+
+width: 790.67px;
+height: 320px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0; 
+}
+
+
+
+/* Hey, I am John */
+.h3{
+width: 146px;
+height: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 21.3333px;
+line-height: 150%;
+/* identical to box height, or 32px */
+text-align: center;
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/* I create product design and brand experience */
+.h1{
+width: 790.67px;
+height: 172px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 74.6667px;
+line-height: 120%;
+/* or 90px */
+
+/* Heading color */
+color: #282938;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;  
+}
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. */
+.b1{
+width: 621.33px;
+height: 73.33px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+/* Body */
+color: #1C1E53;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0; 
+}
+
+
+
+/* Actions */
+.actions{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 21.3333px 0px 0px;
+gap: 21.33px;
+
+width: 170.67px;
+height: 90.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;   
+}
+
+
+
+/* Button */
+.buttonBox{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18.6667px 42.6667px;
+gap: 10.67px;
+
+width: 170.67px;
+height: 69.33px;
+
+/* Primary */
+background: #5E3BEE;
+border-radius: 5.33333px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0; 
+}
+
+
+
+/* Get In Touch */
+.buttonText{
+width: 120px;
+height: 32px;
+
+/* Body 02 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0; 
+}
+
+
+
+/* Group 11 1 */
+.imgContainer{
+width: 917.33px;
+height: 729.74px;
+
+background: url(../Images/Capture.PNG);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;   
+}
+
+
+/* Media query for tablet devices */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .image-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    
+    .text-container {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  }
