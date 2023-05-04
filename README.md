@@ -1,6 +1,6 @@
 # LV 1 zadatak - Osobna stranica
 
-### LINK: 
+### LINK: https://ferit-racunarstvo-web-programiranje.github.io/lv1-IKucenjak/Pages/portfolioPage.html
 
 <hr />
 
